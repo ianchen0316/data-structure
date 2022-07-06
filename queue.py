@@ -58,6 +58,8 @@ class CircularArrayQueue(AbstractQueue):
 		self._front += 1
 		self._size -= 1 
 
+		return val 
+
 	def front(self): 
 
 		if self.is_empty(): 
